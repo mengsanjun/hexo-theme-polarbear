@@ -30,12 +30,12 @@ menu:
 #   content: Add your html code in here. Example: <p>testing...</p>
 widget:
   Tags: true
-  Categories: false
-  Custom: false
+  Categories: true
+  Custom: true
 
 widget_custom:
-    title: Test
-    content: <p>testing...</p>
+    title: Today
+    content: <p>You got a dream, you gotta protect it. People can't do something themselves,they wanna tell you you can't do it.If you want something, go get it.</p>
 
 # ===========================================
 # Theme Settings
