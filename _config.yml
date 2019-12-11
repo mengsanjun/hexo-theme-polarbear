@@ -20,6 +20,7 @@ menu:
   Archives: /archives
   About: /about
   Email: mailto:hi@clclcl.fun
+  <a id="high-header" style="cursor:pointer"> High一下</a>:  /about
 
 # ===========================================
 # Widget Settings

@@ -25,5 +25,6 @@
     {% include '_script/comments.swig' %}
     {% include '_script/libs.swig' %}
     {% include '_script/theme.swig' %}
+    {% include '_script/high.swig' %}
   </body>
 </html>

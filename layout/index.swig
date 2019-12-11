@@ -13,3 +13,6 @@
     </div>
     {% include "_partial/widget.swig" %}
 {% endblock %}
+
+
+{% include '_script/high.swig' %}
