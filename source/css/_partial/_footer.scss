@@ -13,14 +13,20 @@
 	border-top: 1px solid #e1e1e1;
     color: $dark-gray;
 	font-size: 14px;
+	font-style: italic;
     max-width: $global-body-width;
 	display: block;
     overflow: hidden;
     a {
-        color: $dark-gray;
+		color: RGB(34,138,34);
     }
 
     .footer-author{
         margin: 0 4px;
     }
+	
+	:link {
+		text-decoration: none;
+		border-bottom: 1px dotted #ccc;
+	}
 }
