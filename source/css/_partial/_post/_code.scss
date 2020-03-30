@@ -6,7 +6,7 @@ code, pre {
 }
 
 code {
-  padding: 3px 5px;
+  padding: 3px 3px;
   color: $code-color;
 }
 
@@ -22,25 +22,19 @@ code {
       top: 0;
       right: 0;
       left: 0;
-      padding: 2px 7px;
+      padding: 2px 3px;
       font-size: $code-font-size;
       font-weight: bold;
       color: $gray;
       background: darken($code-background, 3%);
-      content: 'Code';
-    }
-  }
-
-  @each $sign, $text in $code-type-list {
-    &.#{$sign} > ::after {
-      content: $text;
+      
     }
   }
 
   .code {
     pre {
       margin: 0;
-      padding: 30px 10px 10px;
+	  padding: 2px 2px 2px;
     }
   }
 
@@ -50,7 +44,7 @@ code {
 
     pre {
       margin: 0;
-      padding: 30px 7px 10px;
+	  padding: 2px 2px 2px;
     }
   }
 
